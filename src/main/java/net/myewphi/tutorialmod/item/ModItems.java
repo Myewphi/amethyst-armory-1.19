@@ -7,15 +7,12 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.myewphi.tutorialmod.TutorialMod;
+import net.myewphi.tutorialmod.toolmaterials.AmethystToolMaterial;
 
 public class ModItems {
 
     public static final Item AMETHYST_KNIFE = registerItem("amethyst_knife",
-            new SwordItem(ModToolMaterials.AMETHYST, 1, 1f, new FabricItemSettings()), ItemGroups.COMBAT);
-    /*
-    public static final Item AMETHYST_KNIFE = registerItem("amethyst_knife",
-            new Item(new FabricItemSettings()), ItemGroups.COMBAT);
-            */
+            new SwordItem(AmethystToolMaterial.INSTANCE, 1, 1f, new FabricItemSettings()), ItemGroups.COMBAT);
 
     private static Item registerItem(String name, Item item, ItemGroup itemGroup) {
         ItemGroupEvents.modifyEntriesEvent(itemGroup).register(content -> {
