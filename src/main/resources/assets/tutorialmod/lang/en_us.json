@@ -1,3 +1,10 @@
 {
-  "item.tutorialmod.amethyst_knife": "Amethyst Knife"
+  "item.tutorialmod.amethyst_knife": "Amethyst Knife",
+  "item.tutorialmod.amethyst_sword": "Amethyst Sword",
+  "item.tutorialmod.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.tutorialmod.amethyst_shovel": "Amethyst Shovel",
+  "item.tutorialmod.amethyst_hoe": "Amethyst Hoe",
+  "item.tutorialmod.amethyst_axe": "Amethyst Axe",
+
+  "itemGroup.tutorialmod.tutorialtab": "Tutorial Mod Tab"
 }
