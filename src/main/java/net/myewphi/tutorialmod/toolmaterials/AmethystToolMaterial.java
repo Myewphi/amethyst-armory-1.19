@@ -8,11 +8,11 @@ public class AmethystToolMaterial implements ToolMaterial {
     public static final AmethystToolMaterial INSTANCE = new AmethystToolMaterial();
     @Override
     public int getDurability() {
-        return 500;
+        return 32;
     }
     @Override
     public float getMiningSpeedMultiplier() {
-        return 5.0F;
+        return 8.0F;
     }
     @Override
     public float getAttackDamage() {
@@ -20,11 +20,11 @@ public class AmethystToolMaterial implements ToolMaterial {
     }
     @Override
     public int getMiningLevel() {
-        return 2;
+        return 3;
     }
     @Override
     public int getEnchantability() {
-        return 15;
+        return 22;
     }
     @Override
     public Ingredient getRepairIngredient() {
