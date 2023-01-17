@@ -21,6 +21,14 @@ public class ModItems {
             new CustomHoeItem(AmethystToolMaterial.INSTANCE, -3, 0f, new FabricItemSettings()), ModItemGroup.TUTORIALTAB);
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword",
             new SwordItem(AmethystToolMaterial.INSTANCE, 3, -2.4f, new FabricItemSettings()), ModItemGroup.TUTORIALTAB);
+    public static final Item AMETHYST_GREATSWORD = registerItem("amethyst_greatsword",
+            new SwordItem(AmethystToolMaterial.INSTANCE, 5, -3f, new FabricItemSettings()), ModItemGroup.TUTORIALTAB);
+    public static final Item AMETHYST_SPEAR = registerItem("amethyst_spear",
+            new SwordItem(AmethystToolMaterial.INSTANCE, 5, -3f, new FabricItemSettings()), ModItemGroup.TUTORIALTAB);
+    public static final Item AMETHYST_CROSS_SPEAR = registerItem("amethyst_cross_spear",
+            new SwordItem(AmethystToolMaterial.INSTANCE, 5, -3f, new FabricItemSettings()), ModItemGroup.TUTORIALTAB);
+    public static final Item DOUBLE_HEADED_AMETHYST_SPEAR = registerItem("double_headed_amethyst_spear",
+            new SwordItem(AmethystToolMaterial.INSTANCE, 5, -3f, new FabricItemSettings()), ModItemGroup.TUTORIALTAB);
     public static final Item AMETHYST_KNIFE = registerItem("amethyst_knife",
             new SwordItem(AmethystToolMaterial.INSTANCE, 2, -2f, new FabricItemSettings()), ModItemGroup.TUTORIALTAB);
 

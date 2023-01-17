@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "tutorialmod:amethyst_sword"
+    }
+  },
+  "pattern": [
+    "  S",
+    " G ",
+    "A  "
+  ],
+  "result": {
+    "item": "tutorialmod:double_headed_amethyst_spear"
+  }
+}
