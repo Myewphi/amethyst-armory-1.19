@@ -1,32 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "amethystarmory",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
+  "name": "Amethyst Armory",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Myewphi"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/amethystarmory/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.myewphi.tutorialmod.TutorialMod"
+      "net.myewphi.amethystarmory.AmethystArmory"
     ],
     "client": [
-      "net.myewphi.tutorialmod.TutorialModClient"
+      "net.myewphi.amethystarmory.AmethystArmoryClient"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "amethystarmory.mixins.json"
   ],
 
   "depends": {

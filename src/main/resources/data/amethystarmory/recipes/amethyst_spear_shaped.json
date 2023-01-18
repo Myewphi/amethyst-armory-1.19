@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "amethystarmory:amethyst_sword"
+    }
+  },
+  "pattern": [
+    "  S",
+    " G ",
+    "G  "
+  ],
+  "result": {
+    "item": "amethystarmory:amethyst_spear"
+  }
+}
